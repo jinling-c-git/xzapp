@@ -1,0 +1,53 @@
+scr_homepage As screen:
+
+    FormProcessor1 As FormProcessor:
+        BorderColor: =RGBA(210, 208, 206, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(61, 95, 174, 1)
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =690
+        ModelId: ="Invoice Form Processing (ce02d237-5439-47f9-9321-1ab82a8b1bd8)"
+        Width: =430
+        X: =44
+        Y: =42
+        ZIndex: =1
+
+    lbl_InvoiceNum As label:
+        Text: ="Invoice Number"
+        X: =500
+        Y: =176
+        ZIndex: =2
+
+    lbl_DueDate As label:
+        Text: ="Due Date"
+        X: =500
+        Y: =256
+        ZIndex: =3
+
+    lbl_Total As label:
+        Text: ="Total"
+        X: =500
+        Y: =349
+        ZIndex: =4
+
+    txt_InvoiceNum As text:
+        Default: =FormProcessor1.Fields.'Invoice number'
+        X: =690
+        Y: =176
+        ZIndex: =5
+
+    txt_DueDate As text:
+        Default: =FormProcessor1.Fields.'Due date'
+        X: =690
+        Y: =256
+        ZIndex: =6
+
+    txt_Total As text:
+        Default: =FormProcessor1.Fields.'Total amount'
+        X: =690
+        Y: =349
+        ZIndex: =7
+

@@ -1,0 +1,652 @@
+{
+  "appinfo": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/appinfo",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "appinfo",
+    "OverridableProperties": {},
+    "Version": "1.0"
+  },
+  "FormProcessor": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/FormProcessor",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "FormProcessor",
+    "OverridableProperties": {
+      "Checkboxes": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Record",
+          "Name": "Root",
+          "Type": [
+            {
+              "EnumString": "",
+              "Kind": "_MinPrimitive",
+              "Name": "Property Shipping",
+              "Type": []
+            }
+          ]
+        },
+        "Version": "1.320"
+      },
+      "Fields": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Record",
+          "Name": "Root",
+          "Type": [
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Customer ID",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Due date",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Invoice number",
+              "Type": []
+            },
+            {
+              "EnumString": "",
+              "Kind": "String",
+              "Name": "Total amount",
+              "Type": []
+            }
+          ]
+        },
+        "Version": "1.320"
+      },
+      "Results": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Record",
+          "Name": "Root",
+          "Type": [
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Customer ID",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Due date",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Invoice number",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Table",
+              "Name": "Items",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "Description",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Record",
+                      "Name": "BoundingBox",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Height",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Left",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Top",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Width",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Confidence",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "PageNumber",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Value",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "Items Total",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Record",
+                      "Name": "BoundingBox",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Height",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Left",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Top",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Width",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Confidence",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "PageNumber",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Value",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "Unit Price",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Record",
+                      "Name": "BoundingBox",
+                      "Type": [
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Height",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Left",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Top",
+                          "Type": []
+                        },
+                        {
+                          "EnumString": "",
+                          "Kind": "Number",
+                          "Name": "Width",
+                          "Type": []
+                        }
+                      ]
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Confidence",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "PageNumber",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "String",
+                      "Name": "Value",
+                      "Type": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Property Shipping",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "_MinPrimitive",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            },
+            {
+              "EnumString": "",
+              "Kind": "Record",
+              "Name": "Total amount",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "Record",
+                  "Name": "BoundingBox",
+                  "Type": [
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Height",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Left",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Top",
+                      "Type": []
+                    },
+                    {
+                      "EnumString": "",
+                      "Kind": "Number",
+                      "Name": "Width",
+                      "Type": []
+                    }
+                  ]
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "Confidence",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "Number",
+                  "Name": "PageNumber",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Value",
+                  "Type": []
+                }
+              ]
+            }
+          ]
+        },
+        "Version": "1.320"
+      },
+      "Tables": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Record",
+          "Name": "Root",
+          "Type": [
+            {
+              "EnumString": "",
+              "Kind": "Table",
+              "Name": "Items",
+              "Type": [
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Description",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Items Total",
+                  "Type": []
+                },
+                {
+                  "EnumString": "",
+                  "Kind": "String",
+                  "Name": "Unit Price",
+                  "Type": []
+                }
+              ]
+            }
+          ]
+        },
+        "Version": "1.320"
+      }
+    },
+    "PCFDynamicSchemaForIRRetrieval": {
+      "Checkboxes": {
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Property Shipping\":{\"type\":\"boolean\",\"title\":\"value\"}}}",
+        "PCFSkipValidation": false
+      },
+      "Fields": {
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Total amount\":{\"type\":\"string\",\"title\":\"value\"},\"Invoice number\":{\"type\":\"string\",\"title\":\"value\"},\"Due date\":{\"type\":\"string\",\"title\":\"value\"},\"Customer ID\":{\"type\":\"string\",\"title\":\"value\"}}}",
+        "PCFSkipValidation": false
+      },
+      "Results": {
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Total amount\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Invoice number\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Due date\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Customer ID\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Property Shipping\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"boolean\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Unit Price\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Items Total\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}},\"Description\":{\"type\":\"object\",\"properties\":{\"Value\":{\"type\":\"string\"},\"Confidence\":{\"type\":\"number\"},\"PageNumber\":{\"type\":\"number\"},\"BoundingBox\":{\"type\":\"object\",\"properties\":{\"Left\":{\"type\":\"number\"},\"Top\":{\"type\":\"number\"},\"Width\":{\"type\":\"number\"},\"Height\":{\"type\":\"number\"}}}}}}}}}}",
+        "PCFSkipValidation": false
+      },
+      "Tables": {
+        "DynamicSchema": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"Items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Unit Price\":{\"type\":\"string\",\"title\":\"value\"},\"Items Total\":{\"type\":\"string\",\"title\":\"value\"},\"Description\":{\"type\":\"string\",\"title\":\"value\"}}}}}}",
+        "PCFSkipValidation": false
+      }
+    },
+    "TemplateDisplayName": "FormProcessor",
+    "Version": "1.0.96"
+  },
+  "groupContainer": {
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/groupContainer",
+    "IsComponentTemplate": false,
+    "IsPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "groupContainer",
+    "Version": "1.0"
+  },
+  "label": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/label",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "label",
+    "OverridableProperties": {},
+    "Version": "2.4.0"
+  },
+  "screen": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/screen",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "screen",
+    "OverridableProperties": {},
+    "Version": "1.0"
+  },
+  "text": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/text",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "text",
+    "OverridableProperties": {},
+    "Version": "2.3.1"
+  }
+}
