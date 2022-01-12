@@ -28,7 +28,7 @@ scr_homepage As screen:
         ZIndex: =3
 
     lbl_Total As label:
-        Text: ="Total"
+        Text: ="Total Cost"
         X: =500
         Y: =349
         ZIndex: =4
